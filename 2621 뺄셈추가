@@ -1,0 +1,39 @@
+0. 학번 : 2621
+
+[프로젝트 1 : 유효숫자 구하기 프로그램 구현]
+1)연구소 이름 : 406호 왼쪽 침대 연구소
+
+2)연구소가 해결하려는 문제 : 유효숫자 구하기 프로그램 구현
+
+3)연구소의 깃헙 링크 : https://github.com/MeeRang/2019-
+
+4-1)수정하거나 추가하고 싶은 내용
+할수있는 사치연산이 늘어났으면 좋겠다.
+
+4-2)내가 기여한 내용
+def sum() :
+    a = input("더할 숫자들을 입력해주세요(숫자 사이에 띄어쓰기): ")
+    b = input("뺄 숫자들을 입력해주세요(숫자 사이에 띄어쓰기): ")
+    a = a.split()
+    b = b.split()
+    c = c.append(a) + c.append(b)
+    # tmp에 가장 높은 유효숫자 자릿수를 저장
+    tmp = pn(float(c[0]))
+    # s에 총 합 저장
+    s = 0
+    for i in a :
+        if tmp > pn(float(i)) :
+            tmp = pn(float(i))
+        s += float(i)
+    for i in b :
+       if tmp > pn(float(i)) :
+           tmp = pn(float(i))
+       s -= float(i)
+       
+    # 반올림
+    print(round(s,tmp))
+    
+5)내가 기여한 내용에 대한 설명
+덧셈과 곱셈만 있는 기존 코드에 뺄셈을 추가하였다.
+
+6)내가 기여한 내용의 반영 여부 : 모른다
